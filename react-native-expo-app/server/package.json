@@ -1,0 +1,23 @@
+{
+  "name": "react-native-webrtc-expo-example-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": {
+    "name": "Mohammed Handa",
+    "email": "mohamadhenda@gmail.com",
+    "url": "https://mohammedhanda.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
