@@ -4,6 +4,12 @@
 
 This is a demo app of using WebRTC with React Native. It's built with Expo and uses a [custom development build](https://docs.expo.dev/develop/development-builds/introduction/).
 
+<!-- insert table of screenshots -->
+
+| Join                                                           | Outgoing call                                                               | Incoming call                                                               | On call                                                              |
+| -------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| <img width="200px" src="./docs//join.png" alt="Join screen" /> | <img width="200px" src="./docs//outgoing-call.png" alt="Outgoing screen" /> | <img width="200px" src="./docs//incoming-call.png" atl="Incoming screen" /> | <img width="200px" src="./docs//on-call.png" alt="On call screen" /> |
+
 ## How to build
 
 The easy way to build this app is to use Expo's build service (EAS). Although you can [build it locally](https://docs.expo.dev/build-reference/local-builds/) if you prefer.
