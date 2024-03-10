@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "WebRTC Expo Example",
+    "slug": "webrtc-expo-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "@config-plugins/react-native-webrtc"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "298b5afc-c9dd-42ff-9188-bac1105c6a0b"
+      }
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.webrtcexpoexample"
+    },
+    "android": {
+      "package": "com.example.webrtcexpoexample"
+    }
+  }
+}
